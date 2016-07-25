@@ -15,3 +15,9 @@ h1{
     height: 100px;
     margin: 10px 0 0 0;
 }
+
+
+#disqus_thread{
+    width: 200px;
+    margin: 0 0 0 0;
+}
