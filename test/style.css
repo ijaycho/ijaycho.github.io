@@ -1,3 +1,10 @@
+a img{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+
 body{
     text-align: center;
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
@@ -20,4 +27,20 @@ h1{
 #disqus_thread{
     width: 200px;
     margin: 0 0 0 0;
+}
+
+#footer{
+    list-style: none;
+    margin: 0 auto;
+}
+#footer li{
+/*    float: left;*/
+}
+
+#footer li a, #footer li{
+    color: #777e8a;
+}
+
+#footer li a:hover{
+    text-decoration: underline;
 }
