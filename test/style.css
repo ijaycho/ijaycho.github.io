@@ -1,4 +1,4 @@
-a img #footer{
+a img #footer #iphone{
     border: none;
 }
 a{
@@ -11,7 +11,39 @@ body{
     font-size: 15px;
 	font-weight: 100;
     margin: 0 0 0 0;
-    background-image: url(../images/backImage@2x.png)
+/*    background-image: url(../images/backImage@2x.png);*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#iphone{
+    width:175px;
+	height: 357px;
+	background: url("../images/iPhone-6s@2x.png");
+	background-size: 175px 357px;
+    margin-top: 50px;
+    left: 60%;
+    position: absolute;
+}
+#sound_button{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    margin-left: 0;
+    margin-top: 30px;
+}
+#sound_button img{
+    position: absolute;
+}
+
+#sound_button_on{
+    width: 32px;
+    height: 30px;
+    opacity: 0
+}
+#sound_button_off{
+    width: 32px;
+    height: 30px;
+    opacity: 1
 }
 
 h1{
@@ -30,7 +62,9 @@ h1{
     width: 200px;
     margin: 0 0 0 0;
 }
-
+#share{
+    margin: 400px 0 0 0;
+}
 #footer{
     background-color: aquamarine;
     padding: 20px 0 20px 0;
