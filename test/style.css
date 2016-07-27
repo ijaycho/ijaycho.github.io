@@ -71,11 +71,11 @@ h1{
 }
 #share{
     margin: 400px 0 0 0;
-    display: inline-block;
+    display: inline;
 }
 .fb-like{
     margin-bottom: 5px;
-    display: inline-block;
+    display: inline;
 }
 #footer{
     background-color: aquamarine;
