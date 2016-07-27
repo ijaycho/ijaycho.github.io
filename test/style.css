@@ -72,6 +72,9 @@ h1{
 #share{
     margin: 400px 0 0 0;
 }
+.fb-like{
+    margin-bottom: 5px;
+}
 #footer{
     background-color: aquamarine;
     padding: 20px 0 20px 0;
