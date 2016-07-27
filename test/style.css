@@ -3,18 +3,25 @@ a img #footer #iphone{
 }
 a{
     text-decoration: none;
+    color: #e81c4f;
 }
 
 body{
     text-align: center;
-    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-family: "Helvetica Neue","Helvetica",sans-serif,"Arial";
     font-size: 15px;
 	font-weight: 100;
-    margin: 0 0 0 0;
+    margin: 0 auto;
 /*    background-image: url(../images/backImage@2x.png);*/
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 50em;
+    color: #555;
 }
+h1,h2,strong {
+  color: #333;
+}
+
 #iphone{
     width:175px;
 	height: 357px;
@@ -80,7 +87,7 @@ h1{
 }
 
 #footer-info li a, #footer li{
-    color: darkslategray;
+/*    color: darkslategray;*/
 }
 
 #footer-info li a:hover{
