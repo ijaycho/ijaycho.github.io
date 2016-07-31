@@ -2,8 +2,9 @@ a img #footer #iphone{
     border: none;
 }
 a{
+    font-family: "Helvetica Neue","Helvetica",sans-serif,"Arial";
     text-decoration: none;
-    color: #e81c4f;
+    color:white;
 }
 
 body{
@@ -12,30 +13,88 @@ body{
     font-size: 15px;
 	font-weight: 100;
     margin: 0 auto;
-/*    background-image: url(../images/backImage@2x.png);*/
+    background-image: url(../images/backImage@2x.png);
+    background-size: 750px 800px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:top;
     max-width: 50em;
+/*    background: #f5f7f8;*/
     color: #555;
 }
 h1,h2,strong {
   color: #333;
 }
 
+#container{
+    position: relative;
+/*    width: 770px;*/
+    margin: 30px auto;
+}
+
+#discuss{
+    background-color:aliceblue;
+    margin-top: 100px;
+    padding-top: 30px;
+    text-align: center;
+    height: 500px;
+}
 #iphone{
-    width:175px;
-	height: 357px;
-	background: url("../images/iPhone-6s@2x.png");
-	background-size: 175px 357px;
-    margin-top: 50px;
-    left: 60%;
+    width:215px;
+	height: 439px;
+	background: url("../images/iPhone@2x.png");
+	background-size: 215px 439px;
+/*    margin-top: 50px;*/
+/*    left: 55%;*/
+    right: 15%;
     position: absolute;
+    top:0;
+}
+#iphone video{
+    position: relative;
+	top: 54px;
+}
+#download{
+    
+}
+#download a{
+    width: 135px;
+    height: 40px;
+    background: url(../images/store135x40@2x.png);
+    background-size: 135px 40px;
+    display: block;
+    margin-left: 57px;
+    margin-top: 20px;
+}
+#download404 a{
+    width: 135px;
+    height: 40px;
+    background: url(../images/store135x40@2x.png);
+    background-size: 135px 40px;
+    display: block;
+    margin: auto;
+}
+#home a{
+    width: 77px;
+    height: 63px;
+    background: url(../images/home@2x.png);
+    background-size: 77px 63px;
+    display: block;
+    margin: auto;
+}
+#download span {
+	display: none;
+}
+#download404 span{
+	display: none;
+}
+#home span{
+    display: none;
 }
 #sound_button{
     position: absolute;
     top: 0;
-    left: 40px;
-    margin-left: 0;
+    left: 50%;
+    margin-left: -23em;
     margin-top: 30px;
 }
 #sound_button img{
@@ -54,29 +113,49 @@ h1,h2,strong {
 }
 
 h1{
+    font-size: 25px;
     font-weight: 100;
     margin: 0 0 0 0
 }
 
 #logo{
-    width: 100px;
+    width: 195.5px;
     height: 100px;
-    margin: 10px 0 0 0;
+    margin: 0 0 0 0;
 }
-
-
+.trigger{
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    opacity: 0.3;
+}
+#groups{
+/*    float: left;*/
+/*    margin: 0 auto;*/
+/*    margin-top: 0px;*/
+    padding-top: 30px;
+    margin-left: 100px;
+    text-align: left;
+/*    left: 0;*/
+}
+.output{
+    padding-left: 10px;
+}
 #disqus_thread{
     width: 200px;
     margin: 0 0 0 0;
 }
 #share{
-    margin: 400px 0 0 0;
+    background-color: aliceblue;
+    margin: 0 0 0 0;
 }
 .fb-like{
 /*    margin-bottom: 5px;*/
 }
 #footer{
-    background-color: aquamarine;
+    color: black;
+    font-weight:200;
+    background-color: #8B84B7;
     padding: 20px 0 20px 0;
     margin: 0 0 0 0;
 }
@@ -95,4 +174,29 @@ h1{
 
 #footer-info li a:hover{
     text-decoration: underline;
+}
+
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    body{
+        background-size: 750px 1334px;
+    }
+    #groups{
+        margin-left: -125px;
+        padding-left: 50%;
+    }
+    #iphone{
+        top: 70px;
+    	left: 50%;
+        margin-left: -107px;
+        position: relative;
+    }
+    #sound_button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 40px;
+    margin-top: 40px;
+    }
 }
