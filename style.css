@@ -40,7 +40,8 @@ h1,h2,strong {
 }
 #disqus{
     margin-top: 50px;
-    left: 50%;
+    margin-left: 50%;
+    padding-left: -200px;
 }
 #iphone{
     width:215px;
