@@ -125,6 +125,7 @@ ga('send', 'pageview');
             <div id="iphone">
                 <video width="186" autoplay height="330" loop muted>
                     <source src="../Trigger.mp4" type="video/mp4">
+                    <source src="../Trigger.ogv" type="video/ogg">
                 </video>
             </div>
         </div>
@@ -132,28 +133,29 @@ ga('send', 'pageview');
 
         <div id="discuss">
             <h1>So many functions you can hear</h1>
+            <div id="disqus_thread"></div>
+            <script>
+                var disqus_config = function () {
+                    this.page.url = triggeru.com/test;  
+                    this.page.identifier = triggeru.com/test;
+                };
+
+                (function() {
+                    var d = document, s = d.createElement('script');
+                    s.src = '//triggerapp.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <script id="dsq-count-scr" src="//triggerapp.disqus.com/count.js" async></script>
         </div>
 
         <div id="sound_button">
             <img src="../images/webSoundOff@2x.png" alt="Sound Off" id="sound_button_off">
             <img src="../images/webSoundOn@2x.png" alt="Sound On" id="sound_button_on">
         </div>
-        <div id="disqus_thread"></div>
-        <script>
-            var disqus_config = function () {
-                this.page.url = triggeru.com/test;  
-                this.page.identifier = triggeru.com/test;
-            };
 
-            (function() {
-                var d = document, s = d.createElement('script');
-                s.src = '//triggerapp.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <script id="dsq-count-scr" src="//triggerapp.disqus.com/count.js" async></script>
         <div id="share">
             <a class="twitter-share-button"
                href="https://twitter.com/share"
