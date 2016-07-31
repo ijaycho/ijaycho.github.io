@@ -36,10 +36,10 @@ h1,h2,strong {
     margin-top: 100px;
     padding-top: 30px;
     text-align: center;
-    height: 500px;
+/*    height: 500px;*/
+    height: auto !important;
 }
 #disqus{
-    height: 300px;
     margin-top: 60px;
     padding-left: 50%;
     margin-left: -200px;
