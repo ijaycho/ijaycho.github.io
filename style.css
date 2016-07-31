@@ -39,6 +39,7 @@ h1,h2,strong {
     height: 500px;
 }
 #disqus{
+    height: 300px;
     margin-top: 60px;
     padding-left: 50%;
     margin-left: -200px;
