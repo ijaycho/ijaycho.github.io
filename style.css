@@ -38,6 +38,9 @@ h1,h2,strong {
     text-align: center;
     height: 500px;
 }
+#disqus{
+    margin: auto;
+}
 #iphone{
     width:215px;
 	height: 439px;
@@ -142,7 +145,7 @@ h1{
     padding-left: 10px;
 }
 #disqus_thread{
-    width: 200px;
+    width: 400px;
     margin: 0 0 0 0;
 }
 #share{

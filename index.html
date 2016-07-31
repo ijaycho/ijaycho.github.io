@@ -133,22 +133,24 @@
 
         <div id="discuss">
             <h1>So many functions you can hear</h1>
-            <div id="disqus_thread"></div>
-            <script>
-                var disqus_config = function () {
-                    this.page.url = triggeru.com;  
-                    this.page.identifier = triggeru.com;
-                };
+            <div id="disqus">
+                <div id="disqus_thread"></div>
+                <script>
+                    var disqus_config = function () {
+                        this.page.url = triggeru.com;  
+                        this.page.identifier = triggeru.com;
+                    };
 
-                (function() {
-                    var d = document, s = d.createElement('script');
-                    s.src = '//triggerapp.disqus.com/embed.js';
-                    s.setAttribute('data-timestamp', +new Date());
-                    (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            <script id="dsq-count-scr" src="//triggerapp.disqus.com/count.js" async></script>
+                    (function() {
+                        var d = document, s = d.createElement('script');
+                        s.src = '//triggerapp.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <script id="dsq-count-scr" src="//triggerapp.disqus.com/count.js" async></script>
+            </div>
         </div>
 
         <div id="sound_button">
