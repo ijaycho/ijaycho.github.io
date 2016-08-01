@@ -7,6 +7,10 @@ a{
     color:#F55567;
 }
 
+#footer a{
+    color: white;
+}
+
 body{
     text-align: center;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
