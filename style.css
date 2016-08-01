@@ -4,7 +4,7 @@ a img #footer #iphone{
 a{
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     text-decoration: none;
-    color:white;
+    color:#F55567;
 }
 
 body{
@@ -65,7 +65,7 @@ h4{
 #iphone video{
     position: relative;
 	top: 54px;
-    left: 1px;
+/*    left: 1px;*/
 }
 #download{
     
